@@ -36,3 +36,30 @@ A snapshot of some of his projects are below.
 ""
 
 Raph would love to hear from you via email at raph.vraets@gmail.com.
+
+- Structure of copy
+	- copy for each project
+	-the yard
+	-halo group
+	-theatre
+	-nhs award ceremony
+	-amily build
+	-outlook
+	-secret garden party
+	-dimensions
+
+-summary copy
+-intro copy
+
+- images
+	- loading them correctly
+-Finding the right ones
+
+- structure/layout
+	- grid system (skeleton)
+-colour
+
+- typography
+	-correct use of typeface
+
+- animations
