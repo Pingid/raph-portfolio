@@ -8,6 +8,13 @@ body {
 }
 .contact {
   font-family: 'Inconsolata' ;
+  font-size: 1.8rem;
+}
+
+.name h2 {
+  font-size: 5rem;
+  font-weight: bold;
+  line-height: 0.60;
 }
 
 /* COLORS */
@@ -19,18 +26,56 @@ body {
   background-color: #EDEEEB;
 }
 
+/* Defaults*/
+html, body {
+  height: 100%;
+  width: 100%;
+}
+ul {
+  list-style-type: none;
+}
+
 /* STYLING */
 .left-panel {
+  padding: 4rem;
   position: fixed;
   top: 0;
   left: 0;
   width: 60%;
-  height: 100%
+  height: 100%;
+  margin: none;
+  box-sizing: border-box;
 }
+
+.content-pane {
+  position: fixed;
+  width: 40%;
+  right: 0;
+  height: 100%;
+  box-sizing: border-box;
+  overflow-x: auto;
+}
+
+.menu {
+  text-align: right;
+}
+
 .name {
   position: fixed;
+  padding-left: 4rem;
   bottom: 0;
   left: 0;
+  margin-bottom: -2rem;
+}
+
+section {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+section .title {
+  font-size: 8rem;
+  font-weight: bold;
 }
 
 /*JQUERY CLASS ADDON*/
