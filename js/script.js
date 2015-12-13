@@ -7,9 +7,8 @@ var navs = [
 
 function scrollNavColour(nav, newClass) {
   var distance = $('body').scrollTop();
-  console.log(distance);
   nav.forEach(function(text) {
-    if (distance > text.top && distance <= text.bottom) {
+    if (distance >= text.top && distance < text.bottom) {
       $(text.class).addClass(newClass)
     } else {
       $(text.class).removeClass(newClass)
@@ -17,6 +16,7 @@ function scrollNavColour(nav, newClass) {
   })
 }
 
+scrollNavColour(navs, 'nav-scroll');
 $(window).scroll(function() {
   scrollNavColour(navs, 'nav-scroll');
 })
