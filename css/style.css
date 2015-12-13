@@ -77,3 +77,8 @@ section .title {
   font-size: 8rem;
   font-weight: bold;
 }
+
+/*JQUERY CLASS ADDON*/
+.nav-scroll {
+  color: #f26532;
+}
