@@ -1,0 +1,34 @@
+/* FONTS */
+@import url(https://fonts.googleapis.com/css?family=Inconsolata:400,700);
+@import url(https://fonts.googleapis.com/css?family=Poppins:400,300,500,600,700);
+
+body {
+  font-family: 'Poppins', sans-serif;
+  color: #EDEEEB;
+}
+.contact {
+  font-family: 'Inconsolata' ;
+}
+
+/* COLORS */
+.bg-primary-dark {
+  background-color: #253239;
+}
+
+.primary-light {
+  background-color: #EDEEEB;
+}
+
+/* STYLING */
+.left-panel {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 60%;
+  height: 100%
+}
+.name {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
