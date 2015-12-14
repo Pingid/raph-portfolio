@@ -4,7 +4,7 @@ http://mohawkshow.bjball.com.au/
 
 Intro:
 
-Raph is a skilled creative technician.
+Raph is a inventive carpenter and a creative technician.
 
 Well versed in the technical aspects of set and lighting production as well as creative direction, he
 has conceptualized and created environments for a variety of key players in industries including music, dining,
