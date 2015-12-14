@@ -49,10 +49,8 @@ ul {
 }
 
 .content-pane {
-  position: fixed;
   width: 60%;
-  right: 0;
-  height: 100%;
+  margin-left: 40%;
   padding-right: 4rem;
   box-sizing: border-box;
   overflow-x: auto;
@@ -77,6 +75,13 @@ section {
 }
 
 section .title {
+  font-size: 3rem;
+  -webkit-text-stroke: 1px blue;
+  color: #EDEEEB;
+  font-weight: bold;
+}
+
+section .intro-title {
   font-size: 4rem;
   -webkit-text-stroke: 1px blue;
   color: #EDEEEB;
