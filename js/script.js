@@ -1,7 +1,7 @@
 
 var navs = [
-  {class: '.nav-intro', top: -100, bottom: 800},
-  {class: '.nav-hopyard', top: 800, bottom: 1600},
+  {class: '.nav-intro', top: 0, bottom: 400},
+  {class: '.nav-hopyard', top: 400, bottom: 1600},
   {class: '.nav-outlook', top: 1600, bottom: 2400}
 ]
 
@@ -17,6 +17,7 @@ function scrollNavColour(nav, newClass) {
 }
 
 scrollNavColour(navs, 'nav-scroll');
+
 $(window).scroll(function() {
   scrollNavColour(navs, 'nav-scroll');
 })
