@@ -93,6 +93,12 @@ section .imagewrap img {
   display: block;
 }
 
+section .imagewrap:hover img {
+  transform: scale(0.4);
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);}
+
+
 /*JQUERY CLASS ADDON*/
 .nav-scroll {
   color: blue;
