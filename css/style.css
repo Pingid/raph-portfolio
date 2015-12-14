@@ -1,6 +1,7 @@
 /* FONTS */
 @import url(https://fonts.googleapis.com/css?family=Inconsolata:400,700);
 @import url(https://fonts.googleapis.com/css?family=Poppins:400,300,500,600,700);
+@import url(https://fonts.googleapis.com/css?family=Playfair+Display:400,700,700italic,400italic,900,900italic);
 
 body {
   font-family: 'Poppins', sans-serif;
@@ -15,6 +16,21 @@ body {
   font-size: 8rem;
   font-weight: bold;
   line-height: 0.60;
+}
+
+section .project-quote {
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+  font-size: 3rem;
+  text-align: right;
+}
+
+section .project-quote::after {
+  content: "Raph Vraets";
+  position: absolute;
+  bottom: 0;
+  right: 9rem;
+  font-size: 3.5rem;
 }
 
 /* COLORS */
@@ -72,6 +88,7 @@ ul {
 }
 
 section {
+  position: relative;
   padding-top: 5rem;
   padding-bottom: 5rem;
 }
@@ -94,13 +111,17 @@ section .imagewrap img {
 }
 
 section .imagewrap:hover img {
-  transform: scale(0.6);
-  -ms-transform: translate(300px,0px); /* IE 9 */
- 	-webkit-transform: translate(300px,0px); /* Safari */
-  transform: translate(300px,0px);
+  /*transform: scale(0.5);
+  -webkit-transform: scale(0.5);
 
   -webkit-filter: grayscale(100%);
-  filter: grayscale(100%);}
+  filter: grayscale(100%);*/
+}
+
+section .project-quote {
+  padding: 8rem 6rem;
+  color: rgba(17, 17, 17, 0.36);
+}
 
 
 /*JQUERY CLASS ADDON*/
