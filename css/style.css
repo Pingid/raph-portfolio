@@ -42,7 +42,7 @@ ul {
   position: fixed;
   top: 0;
   left: 0;
-  width: 40%;
+  width: 60%;
   height: 100%;
   margin: none;
   box-sizing: border-box;
@@ -50,7 +50,7 @@ ul {
 
 .content-pane {
   position: fixed;
-  width: 60%;
+  width: 40%;
   right: 0;
   height: 100%;
   padding-right: 4rem;
