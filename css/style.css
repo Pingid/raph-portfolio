@@ -74,6 +74,7 @@ ul {
 
 .menu ul li {
   text-align: right;
+  cursor: pointer;
 }
 
 .name {
