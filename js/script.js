@@ -1,3 +1,4 @@
+// Changes colour of navigation menue to correspond to scroll position
 function scrollNavColour(nav, newClass) {
   var distance = $('body').scrollTop();
   nav.forEach(function(text) {
