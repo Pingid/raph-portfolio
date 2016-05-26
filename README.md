@@ -1,7 +1,3 @@
-http://elbowsydney.com.au/
-
-http://mohawkshow.bjball.com.au/
-
 Intro:
 
 Raph is a inventive carpenter and a creative technician.
